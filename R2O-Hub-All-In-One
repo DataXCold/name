@@ -25,7 +25,9 @@ MainSection:NewButton("Slap Royale Tp (0+)", "Tps you to slap royale", function(
     game:GetService"TeleportService":Teleport(9426795465)
 end)
 
-
+MainSection:NewButton("AutoFarm Elude / Counter", "Made by Anakin#3568", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/Files/keypadFarm.lua"))()
+end)
 
 -- Other
 local Other = Window:NewTab("Other")
